@@ -24,15 +24,15 @@ const ChatInput = () => {
       {
         !isNameSet ?
           <div className="d-flex flex-column justify-content-center align-items-center">
-            <h1 className="fw-bolder text-success"style={{fontFamily:"monospace"}}>Chit Chat</h1>
-            <img src="https://cdn.dribbble.com/users/7813810/screenshots/18154021/media/782ebbf39aaca61ad1d6c2ebcb7af325.gif" alt="" />
+            <h1 className="fw-bolder text-danger"style={{fontFamily:"monospace"}}>CHAT APP</h1>
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDUyZjNuN3BkcDc0YmdrMTVtZnl5ZXcxZ2ZzbnNjOWVwMmkzNGxvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FPJGjhefSJuaRhu/giphy.webp" alt="" />
             <input
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Enter your name..."
             />
-            <button className='mt-3 px-3 fw-bolder btn btn-success' onClick={handleSetName}>Login</button>
+            <button className='mt-3 px-3 fw-bolder btn btn-danger' onClick={handleSetName}>Login</button>
           </div>
 
           :

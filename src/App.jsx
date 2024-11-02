@@ -32,11 +32,11 @@ function App() {
               </div>
               :
               <div className="d-flex flex-column justify-content-center align-items-center">
-              <h1 className="fw-bolder text-success" style={{fontFamily:"monospace"}}>Chit Chat</h1>
-                <img src="https://cdn.dribbble.com/users/7813810/screenshots/18154021/media/782ebbf39aaca61ad1d6c2ebcb7af325.gif" alt="" />
-                <h3 className="fw-bolder">Chatting made,Simple</h3>
-                <p>Communicate with your friends quikly and easily</p>
-                <button onClick={() => setIsGetStarted(true)} className='btn btn-success mt-2 fw-bolder rounded-5 px-4'>GET STARTED</button>
+              <h1 className="fw-bolder text-danger" style={{fontFamily:"monospace"}}>CHAT APP</h1>
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDUyZjNuN3BkcDc0YmdrMTVtZnl5ZXcxZ2ZzbnNjOWVwMmkzNGxvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FPJGjhefSJuaRhu/giphy.webp" alt="" />
+                <h3 className="fw-bolder">Chat with with your best ones</h3>
+                <p>Communicate everyone quikly and easily</p>
+                <button onClick={() => setIsGetStarted(true)} className='btn btn-danger mt-2 fw-bolder rounded-5 px-4'>GET STARTED</button>
               </div>
           }
         </div>

@@ -87,7 +87,7 @@ const ChatMessages = ({ name }) => {
           placeholder="Type your message..."
           onKeyDown={(e) => e.code === 'Enter' ? sendMessage() : null}
         />
-        <button onClick={sendMessage} className='btn btn-success rounded-circle shadow ms-3'><i className="fa-solid fa-angles-right"></i></button>
+        <button onClick={sendMessage} className='btn btn-danger rounded-circle shadow ms-3'><i className="fa-solid fa-angles-right"></i></button>
       </div>
     </div>
   )
